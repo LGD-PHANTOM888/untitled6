@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class StringAnalysis {
+public class String1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите предложение: ");
@@ -13,10 +13,10 @@ public class StringAnalysis {
             }
         }
         int Count1 = 0;
-        String vowels = "аеёиоуыэюяАЕЁИОУЫЭЮЯ";
+        String symbols = "аеёиоуыэюяАЕЁИОУЫЭЮЯ";
         for (int i = 0; i < sentence.length(); i++) {
             char c = sentence.charAt(i);
-            if (vowels.indexOf(c) != -1) {
+            if (symbols.indexOf(c) != -1) {
                 Count1++;
             }
         }
