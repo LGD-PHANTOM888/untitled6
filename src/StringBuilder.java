@@ -8,10 +8,10 @@ public class StringBuilder {
         this.status = status;
     }
     public String buildInfo() {
-        return "[Ім’я: " + name + " | Вік: " + age + " | Статус: " + status + "]";
+        return "[Имя: " + name + " | Возраст: " + age + " | Статус: " + status + "]";
     }
     public static void main(String[] args) {
-        StringBuilder builder = new StringBuilder("Олег", 25, "Активний");
+        StringBuilder builder = new StringBuilder("Олег", 25, "Активный");
         System.out.println(builder.buildInfo());
     }
 }
